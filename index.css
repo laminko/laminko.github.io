@@ -371,7 +371,7 @@ body {
 
 .socials span {
   display: inline-block !important;
-  margin-right: 1.2vw !important;
+  margin-right: 2vw !important;
   font-weight: normal !important;
 }
 
@@ -443,7 +443,7 @@ body {
   #profile {
     width: 90vw;
     padding: 4vh 5vw;
-    height: 60vh;
+    height: 80vh;
     text-align: center;
     position: relative;
   }
@@ -562,7 +562,7 @@ body {
   --background-image: linear-gradient(90deg,
       rgba(10, 10, 10, 0.0),
       rgba(10, 10, 10, 0.0)),
-    url("https://unsplash.com/photos/DbwYNr8RPbg/download?force=true&w=640");
+    url("https://images.unsplash.com/photo-1522441815192-d9f04eb0615c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=564&q=80");
   /* url("https://unsplash.com/photos/3AVGc9FUfpE/download?force=true&w=640"); */
   /* url("https://unsplash.com/photos/PaM7SD5wM6g/download?force=true&w=640"); */
   /* url("https://unsplash.com/photos/Zg5uRJDLdD4/download?force=true&w=640"); */
