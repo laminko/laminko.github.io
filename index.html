@@ -281,8 +281,13 @@
     });
 
     $("document").ready(() => {
-      magicProjectsGrid.listen();
-      magicForksGrid.listen();
+      if ($("#work_section").children().length > 0) {
+        magicProjectsGrid.listen();
+      }
+
+      if ($("#forks_section").children().length > 0) {
+        magicForksGrid.listen();
+      }
     });
   </script>
 
@@ -290,9 +295,12 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-5476536-5"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
     gtag('js', new Date());
-  
+
     gtag('config', 'UA-5476536-5');
   </script>
 
