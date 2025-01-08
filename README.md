@@ -1,1 +1,3 @@
-# Hello, world!
+# Hi!
+
+This is a repo for my simple website.
